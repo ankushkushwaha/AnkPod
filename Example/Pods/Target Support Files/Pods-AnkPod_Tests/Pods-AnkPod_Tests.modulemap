@@ -1,0 +1,6 @@
+framework module Pods_AnkPod_Tests {
+  umbrella header "Pods-AnkPod_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

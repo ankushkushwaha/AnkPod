@@ -1,0 +1,22 @@
+{
+  "name": "AnkPod",
+  "version": "0.1.0",
+  "summary": "A short description of AnkPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Ankush Kushwaha/AnkPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ankush Kushwaha": "ankush.kushwaha@starcut.com"
+  },
+  "source": {
+    "git": "https://github.com/Ankush Kushwaha/AnkPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AnkPod/Classes/**/*"
+}

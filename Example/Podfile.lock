@@ -1,0 +1,16 @@
+PODS:
+  - AnkPod (0.1.0)
+
+DEPENDENCIES:
+  - AnkPod (from `../`)
+
+EXTERNAL SOURCES:
+  AnkPod:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AnkPod: 4a78aeee2fcc129d23680d9ccfd2a31b763ce21e
+
+PODFILE CHECKSUM: 8b11e2ac94f918ef90520a817df78b1bd19ae1a9
+
+COCOAPODS: 1.4.0

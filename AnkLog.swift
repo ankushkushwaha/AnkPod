@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+class AnkLog {
+    
+    func log(str: String)  {
+        print(str)
+    }
+}

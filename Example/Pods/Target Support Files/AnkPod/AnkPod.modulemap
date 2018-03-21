@@ -1,0 +1,6 @@
+framework module AnkPod {
+  umbrella header "AnkPod-umbrella.h"
+
+  export *
+  module * { export * }
+}
