@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AnkPod_Example' do
+  pod 'AnkPod', :path => '../'
+
+  target 'AnkPod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
