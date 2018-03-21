@@ -14,6 +14,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		8BB4B59323BB54134EA8CBA5 /* Pods_AnkPod_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D857F365A7D42E9BD37040 /* Pods_AnkPod_Example.framework */; };
+		AC5E58CE206290D500F132B3 /* AnkPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC5E58CF206290D500F132B3 /* AnkPod.framework */; };
 		E9CBF8382ADA13C513838A4D /* Pods_AnkPod_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED7E0D66D11AFCE4F189359 /* Pods_AnkPod_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		646A127C1611867AD3FAA1B4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6ED7E0D66D11AFCE4F189359 /* Pods_AnkPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnkPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC5E58CF206290D500F132B3 /* AnkPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AnkPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C793F8AAB276010AC5787417 /* Pods-AnkPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnkPod_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnkPod_Example/Pods-AnkPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F3D857F365A7D42E9BD37040 /* Pods_AnkPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnkPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC5E58CE206290D500F132B3 /* AnkPod.framework in Frameworks */,
 				8BB4B59323BB54134EA8CBA5 /* Pods_AnkPod_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,6 +145,7 @@
 		8F95C62BEF90B774CF261CE4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AC5E58CF206290D500F132B3 /* AnkPod.framework */,
 				F3D857F365A7D42E9BD37040 /* Pods_AnkPod_Example.framework */,
 				6ED7E0D66D11AFCE4F189359 /* Pods_AnkPod_Tests.framework */,
 			);

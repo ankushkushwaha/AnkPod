@@ -10,7 +10,6 @@
 		03359EC273641D756C05E57BEE1BC3D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		3FDE06F61233403C26AE13F1018DE915 /* Pods-AnkPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B54A5A7BC6221C14A6781B0AA00E8893 /* Pods-AnkPod_Tests-dummy.m */; };
 		54389CA532BF3F23CDDAC701924431AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		7395006CEC1DFD492097E1B59CFD6B9B /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBF8152644FB84F6D7146A89976B5C0 /* ReplaceMe.swift */; };
 		77F30E870FC68AAE0F3819A76D4E140F /* AnkPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FA6636BA9EAE1A31D54F4A5CCD8EE5 /* AnkPod-dummy.m */; };
 		7A71656394523EC4C42292A523E67D0B /* AnkPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1937558AAFCA106CD5796F58CB6C0DF1 /* AnkPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9123C70A134D62ADEA56E1D7A3FE53DA /* Pods-AnkPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43688A051841AABC5149D492FBAC71C6 /* Pods-AnkPod_Example-dummy.m */; };
@@ -64,7 +63,6 @@
 		D6A89EA8FD8BF9C11DB78CA2BE1FB4CE /* AnkPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnkPod-prefix.pch"; sourceTree = "<group>"; };
 		E0B10BBC0FE22034113BC5DA41796102 /* Pods_AnkPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnkPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F566480FFC347D9ABEC26E97BD5678 /* Pods_AnkPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnkPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDBF8152644FB84F6D7146A89976B5C0 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = AnkPod/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		F0FA6636BA9EAE1A31D54F4A5CCD8EE5 /* AnkPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AnkPod-dummy.m"; sourceTree = "<group>"; };
 		FAF7C79A7FBD29F6A69FCBBB321D4E0B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -114,8 +112,7 @@
 		37A84A86481E8945AAF694DC7101CAD5 /* AnkPod */ = {
 			isa = PBXGroup;
 			children = (
-				EDBF8152644FB84F6D7146A89976B5C0 /* ReplaceMe.swift */,
-				AC5E58CC20628B0000F132B3 /* AnkLog.swift */,
+				AC5E58D12062913E00F132B3 /* Classes */,
 				3925F7BFC24A8FA7F9F23472EC092E8B /* Pod */,
 				3769023ACB7AD8B3F842ECD41870F3BB /* Support Files */,
 			);
@@ -170,6 +167,14 @@
 				60928A89C51B0946260B2DA33D19C80D /* Products */,
 				CFF6FFC77A4B95AB94BA078E7DCEFB07 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		AC5E58D12062913E00F132B3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AC5E58CC20628B0000F132B3 /* AnkLog.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -340,7 +345,6 @@
 			files = (
 				AC5E58CD20628B0000F132B3 /* AnkLog.swift in Sources */,
 				77F30E870FC68AAE0F3819A76D4E140F /* AnkPod-dummy.m in Sources */,
-				7395006CEC1DFD492097E1B59CFD6B9B /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
